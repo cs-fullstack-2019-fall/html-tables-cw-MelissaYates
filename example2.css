@@ -1,0 +1,18 @@
+body{
+    padding: 200px;
+}
+
+table{
+    border: 2px black solid;
+    width:100%;
+    border-collapse: collapse;
+}
+th{
+    border: 2px black solid;
+}
+td{
+    border: 2px black solid;
+}
+tr:nth-child(even) {
+    background-color: lightgray;
+}
